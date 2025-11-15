@@ -1,6 +1,6 @@
 import telebot, os, requests, random
 
-bot = telebot.TeleBot("СВОЙ ТОКЕН")
+bot = telebot.TeleBot("СВОЙ_ТОКЕН")
 
 @bot.message_handler(commands=['start'])
 def send_mess(message):
