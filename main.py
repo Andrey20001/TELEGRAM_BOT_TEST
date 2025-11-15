@@ -26,7 +26,7 @@ def send_hello_e(message):
 @bot.message_handler(commands=['опасные_отходы'])
 def send_hello_e(message):
     hello = (message.text.split()[1]) if len(message.text.split()) > 1 else 5
-    bot.reply_to(message, "Опасные отходы например батарейи кладут в КРАСНЫЙ контейнер! Это 4 контейнер!")
+    bot.reply_to(message, "Опасные отходы например батарейки кладут в КРАСНЫЙ контейнер! Это 4 контейнер!")
 
 @bot.message_handler(commands=['бумага'])
 def send_hello_e(message):
