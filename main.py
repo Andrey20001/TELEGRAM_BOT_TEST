@@ -11,7 +11,7 @@ def send_mess(message):
 @bot.message_handler(commands=['пластик'])
 def send_hello_e(message):
     hello = (message.text.split()[1]) if len(message.text.split()) > 1 else 5
-    bot.reply_to(message, "Пластик кладут в ЖЕЛТЫЙ контейнер! Это 1 контейнер1")
+    bot.reply_to(message, "Пластик кладут в ЖЕЛТЫЙ контейнер! Это 1 контейнер!")
 
 @bot.message_handler(commands=['пищевые_отходы'])
 def send_hello_e(message):
