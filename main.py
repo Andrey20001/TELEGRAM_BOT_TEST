@@ -23,7 +23,7 @@ def send_hello_e(message):
     hello = (message.text.split()[1]) if len(message.text.split()) > 1 else 5
     bot.reply_to(message, "Стекло кладут в ЗЕЛЕНЫЙ контейнер! Это 3 контейнер!")
 
-@bot.message_handler(commands=['опасные отходы'])
+@bot.message_handler(commands=['опасные_отходы'])
 def send_hello_e(message):
     hello = (message.text.split()[1]) if len(message.text.split()) > 1 else 5
     bot.reply_to(message, "Опасные отходы например батарейи кладут в КРАСНЫЙ контейнер! Это 4 контейнер!")
