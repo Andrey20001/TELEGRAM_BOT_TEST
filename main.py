@@ -1,7 +1,7 @@
 import telebot, os, requests, random
 
 
-bot = telebot.TeleBot("8580844366:AAFDhZN_4IFz2bzKpRs3H4FClGpscjwyC8Y")
+bot = telebot.TeleBot("СВОЙ ТОКЕН")
 
 @bot.message_handler(commands=['start'])
 def send_mess(message):
